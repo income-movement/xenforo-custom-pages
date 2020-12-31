@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Let browser know website is optimized for mobile. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Embedded CSS -->
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-container-row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .flex-grow-to-fit {
+            flex-grow: 1;
+            flex-basis: 100%;
+        }
+
+        .place-holder-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E0E0E0;
+            border: 1px dotted grey;
+        }
+
+        .tile {
+            background-color: #dadada;
+        }
+
+        .footer {
+            padding: 20px;
+            background-color: #dadada;
+        }
+
+        a.action-button {
+            display: inline-flex;
+            padding: 10px;
+
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            background-color: #525659;
+        }
+
+        .padding-15 {
+            padding: 15px;
+        }
+
+        .padding-left-15 {
+            padding-left: 15px;
+        }
+
+        .padding-right-15 {
+            padding-right: 15px;
+        }
+
+        .margin-10 {
+            margin: 10px;
+        }
+
+        .margin-bottom-20 {
+            margin-bottom: 20px;
+        }
+
+        .margin-bottom-40 {
+            margin-bottom: 40px;
+        }
+
+        /* Responsive layout - makes a one column layout instead of a two-column layout */
+        @media (max-width: 800px) {
+            .flex-container-row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Introduction row. -->
+    <div class="flex-container-row space-between margin-bottom-40">
+        <div class="flex-grow-to-fit margin-10 padding-15">
+            <h1>Bringing grassroots together.</h1>
+            <p>
+                The community that is fighting for a federal basic income is diverse and wide-reaching. For years, the
+                sharing of resources and tools, the planning of events, and community conversations about basic income
+                articles, legislation, and more has been relegated to social media accounts or Slack and Discord
+                channels that have a closed door design, requiring an invitation to access. These don’t allow for those
+                curious about basic income to benefit from the amazing work and resources aggregated by the larger basic
+                income community or for those already engaged in the community to find others across the globe to
+                connect with.
+            </p>
+            <p>
+                This site, the Basic Income Community, is designed to be a fully public space for sharing, accessing,
+                evaluating, and talking about everything that is happening in the fight for a federal universal basic
+                income. Whether you are a seasoned organizer or reading your first article about UBI, the Basic Income
+                Community is here to support you. It is lead by and designed for the basic income grassroots community.
+                Welcome! Look forward to you joining the conversation!
+            </p>
+        </div>
+        <div class="flex-grow-to-fit margin-10 padding-15">
+            <img src="https://basicincomecommunity.com/admin.php?attachments/dsc02237-jpg.6/view"
+                alt="Basic income march" width="256" height="346">
+            <img src="https://basicincomecommunity.com/admin.php?attachments/dsc02118-jpg.7/view"
+                alt="Basic income march" width="256" height="216">
+        </div>
+    </div>
+
+    <!-- First row of action tiles. -->
+    <div class="flex-container-row space-between">
+        <div class="tile flex-grow-to-fit margin-10 padding-15">
+            <h2>Go down the UBI rabbit hole.</h2>
+            <p>
+                Why is a universal basic income such an important step towards economic justice? How can we implement
+                this innovative solution? Get answers to those questions and more.
+            </p>
+            <a href="/index.php?categories/what-is-ubi.57/" class="action-button">Learn more</a>
+        </div>
+        <div class="tile flex-grow-to-fit margin-10 padding-15">
+            <h2>Be part of the community.</h2>
+            <p>
+                National events. Local get-togethers. Conversations and panel discussions. There are lots of ways to
+                engage in the larger community for basic income.
+            </p>
+            <a href="/index.php?categories/community.33/" class="action-button">Get involved</a>
+        </div>
+    </div>
+
+    <!-- Second row of action tiles. -->
+    <div class="flex-container-row space-between margin-bottom-40">
+        <div class="tile flex-grow-to-fit margin-10 padding-15">
+            <h2>Increase our political impact.</h2>
+            <p>
+                The way to get elected officials to adopt new, wide-sweeping changes to our economic system is for us,
+                their constituents, to tell them they must! Send the message!
+            </p>
+            <a href="/index.php?categories/politics.31/" class="action-button">Take action</a>
+        </div>
+        <div class="tile flex-grow-to-fit margin-10 padding-15">
+            <h2>Understand the ecosystem.</h2>
+            <p>
+                The fight for basic income is happening at the local and federal level, by organizations, academics,
+                social media influencers and elected officials. Check out who’s doing what.
+            </p>
+            <a href="/index.php?categories/ecosystem.76/" class="action-button">Learn more</a>
+        </div>
+    </div>
+
+    <!-- Calendar. -->
+    <div class="flex-container margin-10 margin-bottom-40">
+        <h1 class="margin-bottom-20">Basic Income Movement Calendar of Events</h1>
+        <div class="place-holder-content flex-grow-to-fit padding-15">
+            <h3>Coming soon</h3>
+        </div>
+    </div>
+
+    <!-- Code of Conduct row. -->
+    <h1 class="padding-left-15 padding-right-15">Code of Conduct</h1>
+    <div class="flex-container-row space-between margin-bottom-20">
+        <div class="flex-grow-to-fit padding-left-15 padding-right-15">
+            <p>
+                The philosophy behind a universal basic income is based in the belief that our economy must be designed
+                to work for the people. We are fighting for an economic system that places people’s dignity and freedom
+                on equal footing with consumer spending and shareholders profits. We want an economy that recognizes the
+                inherent value in each of us, beyond a paycheck and that addresses the economic and technological
+                realities of the 21st century.
+            </p>
+        </div>
+        <div class="flex-grow-to-fit padding-left-15 padding-right-15">
+            <p>
+                The Basic Income Community code of conduct is rooted in this philosophy and approach. Conversations
+                here, and the language we use with each other, will reflect the care and respect we expect our economic
+                systems to support.
+
+                By joining this community, you agree to hold yourself and others accountable to participate in
+                thoughtful discourse. Those violating this Code of Conduct will be flagged or ignored, whichever will be
+                most effective in protecting the greater community.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer. -->
+    <div class="flex-container-row space-between footer">
+        <a href="/index.php?register/" class="action-button">Join us</a>
+    </div>
+
+</body>
+
+</html>
